@@ -1,0 +1,17 @@
+{
+  "name": "textline-bot",
+  "version": "1.0.0",
+  "description": "A sample bot using microsoft's bot framework, textline, and wit.ai",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephanie Volftsun",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^1.0.1",
+    "node-uuid": "^1.4.7",
+    "restify": "^4.1.1",
+    "textline": "file:./textline"
+  }
+}
